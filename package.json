@@ -1,0 +1,30 @@
+{
+  "name": "protractor-typescript-jasmine",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate project. Using: TypeScript, ES6 modules, & jasmine.",
+  "scripts": {
+    "clean": "rimraf ./build/*",
+    "upadte-webderiver": "webdriver-manager update",
+    "build": "tsc",
+    "test": "protractor ./build/protractor.conf.js",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "pretty": "prettier --no-config './spec/*.ts' --write"
+  },
+  "keywords": [
+    "protractor",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.4",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.7.12",
+    "prettier": "^1.18.2",
+    "protractor": "^5.4.2",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.4"
+  }
+}
