@@ -1,7 +1,7 @@
 {
-  "name": "protractor-typescript-es6modules-jasmine",
+  "name": "protractor-es6modules-typescript-jasmine",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using: TypeScript, ES6 modules, & jasmine.",
+  "description": "Protractor end-to-end test automation boilerplate project. Using: ES6 modules, TypeScript, & jasmine.",
   "scripts": {
     "clean": "npx rimraf ./build/*",
     "upadte-webderiver": "npx webdriver-manager update",
@@ -12,11 +12,13 @@
   },
   "keywords": [
     "protractor",
-    "TypeScript",
+    "es6 modules",
+    "typescript",
+    "jasmine",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^3.4.4",

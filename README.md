@@ -1,5 +1,6 @@
 # Protractor: (typescript, ES6 Modules, jasmine)
-Protractor end-to-end test automation boilerplate project. Using: TypeScript, ES6 modules, & jasmine.
+
+Protractor end-to-end test automation boilerplate project. Using: ES6 modules, TypeScript, & jasmine.
 
 ## Getting Started
 
@@ -10,6 +11,6 @@ Protractor end-to-end test automation boilerplate project. Using: TypeScript, ES
     npm run build
     npm run test
 
-To update webdriver to an older or newer version of Chrome browser
+## Useful Link
 
-    npm run upadte-webderiver -- --chrome.version=77.0.3865.120
+[Protractor with Typescript](https://github.com/angular/protractor/tree/master/exampleTypescript)
