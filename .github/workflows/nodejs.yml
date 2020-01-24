@@ -1,4 +1,4 @@
-name: Node CI
+name: protractor-es6modules-typescript-jasmine
 
 on: [push]
 
