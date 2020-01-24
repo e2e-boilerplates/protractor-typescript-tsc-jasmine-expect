@@ -1,5 +1,5 @@
 # Protractor: (typescript, ES6 Modules, jasmine)
-[![GitHub Actions status | e2e-boilerplates/protractor-es6modules-typescript-jasmine](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/workflows/Node%20CI/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/actions?workflow=Node%20CI)
+[![GitHub Actions status | e2e-boilerplates/protractor-es6modules-typescript-jasmine](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/workflows/protractor-es6modules-typescript-jasmine/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/actions?workflow=protractor-es6modules-typescript-jasmine)
 
 Protractor end-to-end test automation boilerplate project. Using: ES6 modules, TypeScript, & jasmine.
 
