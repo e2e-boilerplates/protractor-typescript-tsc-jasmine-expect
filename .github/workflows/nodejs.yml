@@ -16,14 +16,17 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: INSTALL, BUILD
+    - name: INSTALL
       run: |
         npm ci
-        npm run lint
-        npm run build
       env:
         CI: true
-    - name: npm install, build, and test
+    - name: LINT
+      run: |
+        npm run lint
+    - name: UPDATE WEBDRIVER
       run: |
         npm run upadte-webderiver
+    - name: TEST
+      run: |
         npm run test-ci
