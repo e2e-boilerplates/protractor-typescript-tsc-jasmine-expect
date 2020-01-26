@@ -1,7 +1,7 @@
 {
-  "name": "protractor-es6modules-typescript-jasmine",
+  "name": "protractor-typescript-tsc-jasmine-expect",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using: ES6 modules, TypeScript, & jasmine.",
+  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, tsc, Jasmine, and Expect",
   "scripts": {
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
@@ -17,7 +17,8 @@
     "typescript",
     "jasmine",
     "boilerplate",
-    "example"
+    "example",
+    "expect"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",

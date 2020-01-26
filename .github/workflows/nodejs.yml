@@ -1,9 +1,9 @@
 name: protractor-typescript-tsc-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: '0 0 1-31/2 * *'
 
 jobs:
   build:
@@ -27,6 +27,9 @@ jobs:
     - name: UPDATE WEBDRIVER
       run: |
         npm run upadte-webderiver
+    - name: BUILD
+      run: |
+        npm run build
     - name: TEST
       run: |
         npm run test-ci

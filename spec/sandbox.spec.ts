@@ -1,4 +1,4 @@
-import { browser, by, element, ExpectedConditions, Key } from "protractor";
+import { browser, by, element } from "protractor";
 
 const url: string = "https://e2e-boilerplates.github.io/sandbox/";
 
@@ -12,6 +12,6 @@ describe("Sandbox", () => {
     const header = element(by.css("h1"));
 
     expect(title).toEqual("Sandbox");
-    expect(header.getText()).toEqual("Sandbox");
+    expect(await header.getText()).toEqual("Sandbox");
   });
 });
