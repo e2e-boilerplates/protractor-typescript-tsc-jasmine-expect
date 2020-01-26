@@ -1,17 +1,13 @@
-# Protractor: (typescript, ES6 Modules, jasmine)
-[![GitHub Actions status | e2e-boilerplates/protractor-es6modules-typescript-jasmine](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/workflows/protractor-es6modules-typescript-jasmine/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6modules-typescript-jasmine/actions?workflow=protractor-es6modules-typescript-jasmine)
+# Protractor: (TypeScript, tsc, Jasmine and Excpect)
+[![GitHub Actions status | e2e-boilerplates/protractor-typescript-tsc-jasmine-expect](https://github.com/e2e-boilerplates/protractor-typescript-tsc-jasmine-expect/workflows/protractor-typescript-tsc-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/protractor-typescript-tsc-jasmine-expect/actions?workflow=protractor-typescript-tsc-jasmine-expect)
 
-Protractor end-to-end test automation boilerplate project. Using: ES6 modules, TypeScript, & jasmine.
+Protractor end-to-end test automation boilerplate, using: TypeScript, tsc, Jasmine and Expect.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/protractor-typescript-jasmine.git
-    cd protractor-typescript-jasmine
+    git clone git@github.com:e2e-boilerplates/protractor-typescript-tsc-jasmine-expect.git
+    cd protractor-typescript-tsc-jasmine-expect
     npm install
     npm run upadte-webderiver
     npm run build
     npm run test
-
-## Useful Link
-
-[Protractor with Typescript](https://github.com/angular/protractor/tree/master/exampleTypescript)
