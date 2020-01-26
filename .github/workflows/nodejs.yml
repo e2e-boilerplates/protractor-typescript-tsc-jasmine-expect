@@ -1,4 +1,4 @@
-name: protractor-es6modules-typescript-jasmine
+name: protractor-typescript-tsc-jasmine-expect
 
 on: 
   push:
