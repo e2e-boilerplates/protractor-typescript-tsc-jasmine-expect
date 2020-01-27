@@ -1,4 +1,4 @@
-# Protractor: (TypeScript, tsc, Jasmine and Excpect)
+# Protractor: (TypeScript, tsc, Jasmine and Expect)
 [![GitHub Actions status | e2e-boilerplates/protractor-typescript-tsc-jasmine-expect](https://github.com/e2e-boilerplates/protractor-typescript-tsc-jasmine-expect/workflows/protractor-typescript-tsc-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/protractor-typescript-tsc-jasmine-expect/actions?workflow=protractor-typescript-tsc-jasmine-expect)
 
 Protractor end-to-end test automation boilerplate, using: TypeScript, tsc, Jasmine and Expect.
