@@ -2,7 +2,7 @@
     
 # Protractor Boilerplate
     
-Protractor end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), tsc, [Jasmine](https://jasmine.github.io) and Expect.
+Protractor end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), tsc, [Jasmine](https://jasmine.github.io) and Expect.. Clone or fork this repository.
     
 ## Getting Started
     
